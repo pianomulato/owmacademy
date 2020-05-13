@@ -18,9 +18,9 @@ First we will fork this [educenter hugo](https://github.com/themefisher/educente
 
 ### Step 2 : Add your repository in Forestry
 
-Go to your [forestry](https://bit.ly/forestry-account)  account and click on `import your site now`. declare your config.toml file [`exampleSite`] and fill up basic settings .
+Go to your [forestry](https://bit.ly/forestry-account)  account and click on `import your site now`.
 
-**Or just click this button for one click installation** [![import to forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=themefisher/educenter-hugo&engine=hugo&version=0.60.1&config=exampleSite)
+[![Import to Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=forestryio/educenter-hugo&engine=hugo&version=0.62.2)
 
 Now mark everything as done, then go to configuration to change the base url . You can put any url but this have to similar as netlify . So for now put a name which you are going to put in netlify as netlify subdomain.
 
@@ -54,9 +54,9 @@ Here comes the last step . Go to your [netlify](https://bit.ly/netlify-account) 
 At the top we have shown an easy hugo installation. but still if you think you want to go with the traditional way then use the following commands:
 
 ```
-$ git clone git@github.com:themefisher/educenter-hugo.git
-$ cd educenter-hugo/exampleSite/
-$ hugo server --themesDir ../..
+$ git clone git@github.com:forestryio/educenter-hugo.git
+$ cd educenter-hugo
+$ hugo server
 ```
 
 [Full Documentation](https://documentation.themefisher.com/docs/educenter-hugo/).
@@ -74,7 +74,7 @@ If your problem or idea is not addressed yet, [open a new issue](https://github.
 
 ## Technical Support or Questions
 
-If you have questions or need help integrating the product please [contact us](mailto:themefisher@gmail.com) instead of opening an issue.  
+If you have questions or need help integrating the product please [contact us](mailto:themefisher@gmail.com) instead of opening an issue.
 
 ## Licensing
 
