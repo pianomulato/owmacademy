@@ -13,11 +13,11 @@
 
 ## Content Management
 
-[![Import to Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=forestryio/educenter-hugo&engine=hugo&version=0.75.1)
+[![Import to Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=forestryio/educenter-hugo&branch=forestry&engine=hugo&version=0.75.1)
 
 ![Forestry user interface](images/hugo-educenter-forestry.jpg)
 
-This project is pre-configured for [Forestry](https://forestry.io) a Git-based CMS, [import it](https://app.forestry.io/quick-start?repo=forestryio/hugo-educenter-forestry&engine=hugo&version=0.75.1) to edit and preview your site ✨.
+This project is pre-configured for [Forestry](https://forestry.io) a Git-based CMS, [import it](https://app.forestry.io/quick-start?repo=forestryio/hugo-educenter-forestry&branch=forestry&engine=hugo&version=0.75.1) to edit and preview your site ✨.
 
 ## Customization
 
