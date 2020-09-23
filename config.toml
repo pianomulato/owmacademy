@@ -1,11 +1,11 @@
 ######################## default configuration ####################
-baseURL = "http://examplesite.org"
+baseURL = "/"
 title = "Educenter | hugo education template"
-theme = "educenter-hugo"
+theme = "github.com/themefisher/educenter-hugo"
 # post pagination
-paginate = "6"
+paginate = 6
 # post excerpt
-summaryLength = "10"
+summaryLength = 10
 # disqus short name
 disqusShortname = "educenter" # get your shortname form here : https://disqus.com
 # disable language

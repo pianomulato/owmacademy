@@ -1,51 +1,56 @@
-# Hugo Educenter with Forestry CMS
+# Hugo Educenter Forestry starter
 
-Port of the Hugo Educenter Theme originally by Themefischer for Forestry CMS.
+[Hugo Educenter](https://github.com/themefisher/educenter-hugo) is developed by Themefischer
 
-![Screenshot](images/screenshot.jpg)
+![Screenshot](./images/screenshot.jpg)
 
-Import to Forestry in one single click!
+[Preview](http://demo.themefisher.com/educenter-hugo/)
 
-[![Import to Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=forestryio/educenter-hugo&engine=hugo&version=0.70.0)
+## Requirements
 
-## Prerequisites
-
-- Hugo > 0.62.2
+- GitHub, GitLab or BitBucket account
+- Hugo > 0.62.2 (tested with 0.75.1)
 
 ## Content Management
 
+[![Import to Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=forestryio/educenter-hugo&engine=hugo&version=0.75.1)
+
 ![Forestry user interface](images/hugo-educenter-forestry.jpg)
 
-This project has been pre-configured to work with [Forestry](https://forestry.io), just import your repository ✨. \
-Any changes you make will be commited back to the repo, and deployed if you're using Netlify.
+This project is pre-configured for [Forestry](https://forestry.io) a Git-based CMS, [import it](https://app.forestry.io/quick-start?repo=forestryio/hugo-educenter-forestry&engine=hugo&version=0.75.1) to edit and preview your site ✨.
 
 ## Customization
 
 You can customize the theme through the [`config.toml` file](https://github.com/forestryio/hugo-educenter-forestry/blob/forestry/config.toml#L2-L12). Those values are accessible from within Forestry.
 
-## Deployment and hosting with Netlify
+Any changes you make in Forestry is commited back to the repository and automatically deployed.
 
-Import your site in [Netlify](https://netlify.com)
-
-1. Create a new site in Netlify and import your repository.
-2. Set the build command to: `hugo --gc --minify`
-3. Set the publish directory to: `public`
-4. Set `HUGO_VERSION` to 0.70.0
-3. Set the publish directory to: `public`
-
-That's it, now your site gets deployed automatically on `git push` or when saving documents from Forestry.
-
-## Development
+## Local development
 
 ```bash
-# clone the repository
-git clone git@github.com:forestryio/hugo-educenter-forestry.git
-
+# clone your imported repository
 # cd in the project directory
-cd hugo-educenter-forestry
-
 # Start local dev server
 hugo server
 ```
 
-For more information, see [official Hugo documentation](https://gohugo.io/getting-started/).
+## Deployment and hosting
+
+### Netlify
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/)
+
+1. Connect your repository
+1. Set the build command to: `hugo --gc --minify`
+1. Set the publish directory to: `public`
+1. Make sure to set `HUGO_VERSION` to 0.58.2 or above (tested with 0.75.1)
+
+That's it, now your site gets deployed automatically on `git push` or when saving documents from Forestry.
+
+## Feedback
+
+[Open an issue](https://github.com/themefisher/educenter-hugo/issues) in the theme's repository.
+
+## LICENSE
+
+[CC BY 3.0](LICENSE)

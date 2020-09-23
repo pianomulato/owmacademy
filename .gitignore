@@ -1,10 +1,10 @@
-.dist
+# hugo
+public/
+resources/_gen/
+hugo_stats.json
+
+# macOS
 .DS_Store
-.sass-cache
-.tmp
-builds
-node_modules
-npm-debug.log
-package-lock.json
-public
+
+# Windows
 Thumbs.db
